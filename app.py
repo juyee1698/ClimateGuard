@@ -26,8 +26,7 @@ print("Response:", response)
 s3 = boto3.resource(
     service_name='s3',
     region_name='us-east-2',
-    aws_access_key_id='AKIAZVCAYGILEQ25K5MW',
-    aws_secret_access_key='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'
+    
 )
 
 s3_client = boto3.client(
